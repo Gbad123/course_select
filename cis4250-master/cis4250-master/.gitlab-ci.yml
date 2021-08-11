@@ -1,0 +1,7 @@
+stages:
+    - unittests
+
+unittests:
+    stage: unittests
+    script:
+        - python3 -m unittest

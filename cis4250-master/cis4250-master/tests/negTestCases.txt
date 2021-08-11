@@ -1,0 +1,58 @@
+Tests
+T1
+  input => invlaid semester offered
+  output => not read
+T2
+  input => missing semester offered
+  output => not read
+T3
+  input => multiple semester offered, one invlaid
+  output => not read
+T4
+  input => missing course code
+  output => not read
+T5
+  input => course code missing *
+  output => not read
+T6
+  input => course code with multiple*
+  output => not read
+T7
+  input => missing course name
+  output => not read
+T8
+  input => alphabetical course weight
+  output => not read
+T9
+  input => missing course weight
+  output => not read
+T10
+  input => course weight 1
+  output => not read
+T11
+  input => course weight .5
+  output => not read
+T12
+  input => alphabetical class hours
+  output => not read
+T13
+  input => alphabetical lab hours
+  output => not read
+T14
+  input => missing class and lab hours
+  output => not read
+T15
+  input => missing class hours 3-
+  output => not read
+T16
+  input => missing lab hours -3
+  output => not read
+T17
+  input => missing department
+  output => not read
+T18
+  input => missing description
+  output => not read
+T19
+  input => wrong semesters
+  output => not read
